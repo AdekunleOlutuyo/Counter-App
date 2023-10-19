@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import image  from "https://github.com/AdekunleOlutuyo/Counter-App/blob/main/src/bg.jpg";
+import image  from "/src/bg.jpg";
 
 const Home = () => {
   return (
