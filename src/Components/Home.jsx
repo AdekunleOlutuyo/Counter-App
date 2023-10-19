@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import image  from "src/Components";
+import image  from "src/";
 
 const Home = () => {
   return (
