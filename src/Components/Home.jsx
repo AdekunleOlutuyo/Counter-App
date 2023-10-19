@@ -1,10 +1,10 @@
 import {Link} from "react-router-dom";
-import image  from "src/images/bg.jpg";
+
 
 const Home = () => {
   return (
     <>
-    <div className="bg" style={{backgroundImage: `url(${image})`}}>
+    <img className="bg" src="src/images/bg.jpg" alt="logo"/>
     <div className="root-container" >
     <div className="welcome-message">
     <p>Welcome to</p> <h1>Adekunle Olutuyo's</h1> <p>website</p>
@@ -13,7 +13,7 @@ const Home = () => {
       Please check our <Link to="/counter">counter app</Link>
       </p>
       </div>
-      </div>
+      
     </>
     
   );
