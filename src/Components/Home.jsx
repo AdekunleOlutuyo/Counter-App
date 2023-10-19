@@ -1,10 +1,10 @@
 import {Link} from "react-router-dom";
-import image  from "/src/bg.jpg";
+import "./bg.jpg";
 
 const Home = () => {
   return (
     <>
-    <div className="bg" style={{backgroundImage: `url(${image})`}}>
+    <div className="bg" style={{backgroundImage: `url("./bg.jpg")`}}>
     <div className="root-container" >
     <div className="welcome-message">
     <p>Welcome to</p> <h1>Adekunle Olutuyo's</h1> <p>website</p>
