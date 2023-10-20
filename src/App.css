@@ -123,7 +123,7 @@ h2 {
   flex-direction: column;
   position: relative;
   left: 50%;
-  transform: translate(-50%, 50%);
+  transform: translate(-50%, 0%);
   background-color: rgba(240, 248, 255, 0.343);
   height: 350px;
   width: 350px;
@@ -149,10 +149,9 @@ h2 {
   width: 350px;
   position: relative;
   left: 50%;
-  top: 10%;
   margin-top: 20px;
   padding: 10px;
-  transform: translate(-50%, 100px);
+  transform: translate(-50%, 0%);
   font-size: 25px;
   color: rgb(211, 202, 202);
 }
